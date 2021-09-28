@@ -1,0 +1,110 @@
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+main {
+	background: #e9e3e3;
+	color: #0a3752;
+}
+
+.intro {
+	color:rgb(196, 88, 0);
+}
+
+.icons-social a {
+	color: #053652;
+}
+
+.icons-social a svg path{
+	fill: #053652;
+}
+
+.container {
+	padding: 2rem;
+}
+
+img {
+	max-width: 30%;
+	max-height: 30%;
+	border-color: #0a3752;
+	border-radius: 50%;
+	border-width: 10px;
+	box-shadow: 10px 5px 20px rgb(196, 88, 0);
+}
+
+a:hover {
+	color:rgb(196, 88, 0);
+}
+
+i:hover {
+	transform: scale(1.5);
+}
